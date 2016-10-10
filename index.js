@@ -4,6 +4,7 @@
 //https://github.com/psilotec/NoRedInk-takehome
 
 
+
 function questions () {
     // Import question data
     var taxonimy = [
@@ -21,14 +22,30 @@ function questions () {
 // Student is prompted for the number of questions they would like to answer
     // create function numQuestions
     // (must be > 0)
+    function selectNumQuestions () {
+        // Stubbed for now
+        return 3;
+    }
+
+    console.log("Please select how many questions you would like.");
+    var numQuestions = selectNumQuestions();
 
 
 // Based on numQuestions, decide how many strands to give
-    //solve first
-    function decideQuestions () {
+    //solve first, test this function (question_ids defined, question_ids === numQuestions)
+    function decideQuestions (numQuestions) {
+        var i = 0,
+            question_ids;
 
+        for(i; i < numQuestions; i++) {
+
+            taxonimy[][]
+        }
+
+        return question_ids;
     }
 
+    decideQuestions(numQuestions);
 // Prefer questions that have not been assigned yet
     // create variable "hasBeenAssigned"
 
